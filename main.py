@@ -30,6 +30,7 @@ window = tk.Tk()
 window.title("Power Control")
 window.geometry("360x150")
 window.configure(bg="#f0f0f0")
+window.iconbitmap("power.ico")
 
 button_width = 15
 button_height = 2
