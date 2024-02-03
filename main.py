@@ -24,3 +24,13 @@ def forceful_lock_session():
 
 def turn_off_screen():
     ctypes.windll.user32.SendMessageW(0xFFFF, 0x112, 0xF170, 2)
+
+
+window = tk.Tk()
+window.title("Power Control")
+window.geometry("360x150")
+window.configure(bg="#f0f0f0")
+
+button_width = 15
+button_height = 2
+font_style = ("Arial", 12, "bold")
