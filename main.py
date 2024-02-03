@@ -46,3 +46,5 @@ lock_button.grid(row=1, column=0, pady=10, padx=10)
 
 screen_off_button = tk.Button(window, text="Turn Off Screen", command=turn_off_screen, bg="#aa55aa", fg="white", font=font_style, width=button_width, height=button_height)
 screen_off_button.grid(row=1, column=1, pady=10, padx=10)
+
+window.mainloop()
