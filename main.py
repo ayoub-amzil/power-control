@@ -37,3 +37,6 @@ font_style = ("Arial", 12, "bold")
 
 shutdown_button = tk.Button(window, text="Shutdown", command=forceful_shutdown, bg="#ff5555", fg="white", font=font_style, width=button_width, height=button_height)
 shutdown_button.grid(row=0, column=0, pady=10, padx=10)
+
+restart_button = tk.Button(window, text="Restart", command=forceful_restart, bg="#55ff55", fg="white", font=font_style, width=button_width, height=button_height)
+restart_button.grid(row=0, column=1, pady=10, padx=10)
