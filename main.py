@@ -34,3 +34,6 @@ window.configure(bg="#f0f0f0")
 button_width = 15
 button_height = 2
 font_style = ("Arial", 12, "bold")
+
+shutdown_button = tk.Button(window, text="Shutdown", command=forceful_shutdown, bg="#ff5555", fg="white", font=font_style, width=button_width, height=button_height)
+shutdown_button.grid(row=0, column=0, pady=10, padx=10)
